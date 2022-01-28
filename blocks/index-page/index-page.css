@@ -1,29 +1,35 @@
 @font-face {
-  font-family: "Inter";
-  src: local("Inter-Regular"), url(../../fonts/Inter-Regular.woff2) format("woff2"),
-    url(../../fonts/Inter-Regular.woff) format("woff");
+  font-family: Inter;
   font-weight: normal;
+
+  src:
+    local("Inter-Regular"),
+    url(../../fonts/Inter-Regular.woff2) format("woff2"),
+    url(../../fonts/Inter-Regular.woff) format("woff");
 }
 
 @font-face {
-  font-family: "Inter";
-  src: local("Inter-Black"), url(../../fonts/Inter-Black.woff2) format("woff2"),
-    url(../../fonts/Inter-Black.woff) format("woff");
+  font-family: Inter;
   font-weight: 900;
+
+  src:
+    local("Inter-Black"),
+    url(../../fonts/Inter-Black.woff2) format("woff2"),
+    url(../../fonts/Inter-Black.woff) format("woff");
 }
 
 .index-page {
   box-sizing: border-box;
   min-width: 320px;
-  max-width: 320px; /* Cкорректировать, если надо*/
+  max-width: 320px; /* Cкорректировать, когда буду делать отзывчивость*/
   margin: 0 auto;
-  padding: 16px;
+  padding: 16px 0;
 
   color: #ffffff;
-
-  font-family: "Inter", Arial, sans-serif;
-  font-weight: normal;
   background-color: #2a2c2f;
+
+  font-family: Inter, Arial, sans-serif;
+  font-weight: normal;
 
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
