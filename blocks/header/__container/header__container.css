@@ -1,6 +1,5 @@
 .header__container {
-  display: flex;
-  flex-direction: row;
+  display: grid;
   justify-content: space-between;
 
   width: 100%;
