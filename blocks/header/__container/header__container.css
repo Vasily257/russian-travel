@@ -1,8 +1,8 @@
 .header__container {
   display: flex;
   flex-direction: row;
-  justify-content: flex-end;
+  justify-content: space-between;
 
   width: 100%;
-  min-height: 42px;
+  height: 42px; /* Cкорректировать, если надо*/
 }

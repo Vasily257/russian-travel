@@ -13,10 +13,11 @@
 }
 
 .index-page {
+  box-sizing: border-box;
   min-width: 320px;
-  max-width: 425px; /* Проверить и скорректировать, если надо*/
+  max-width: 320px; /* Cкорректировать, если надо*/
   margin: 0 auto;
-  padding: 0 16px;
+  padding: 16px;
 
   color: #ffffff;
 
