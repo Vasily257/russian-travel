@@ -1,0 +1,10 @@
+.lead__image {
+  display: block;
+
+  width: 100%;
+  height: auto;
+  margin-top: 40px;
+
+  object-fit: cover;
+  object-position: center;
+}

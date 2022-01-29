@@ -27,11 +27,16 @@
       </header>
       <main class="index-page__content content">
         <section class="lead">
-          <h1 class="lead__title">Путешествия по России</h1>
+          <h1 class="lead__title">Путешествия по&nbsp;России</h1>
           <p class="lead__subtitle">Настоящая страна не в выпусках новостей, а здесь.</p>
-          <picture class="lead__image">
-            <source srcset="" media="" />
-            <img src="" alt="Ж/д маршрут от Пскова до Улан-Удэ" />
+          <picture>
+            <source srcset="./images/lead/shelf_xs.jpg" media="(min-width: 320px)" />
+            <source srcset="./images/lead/shelf_s.jpg" media="(min-width: 768px)" />
+            <source srcset="./images/lead/shelf_m.jpg" media="(min-width: 1024px)" />
+            <img
+              class="lead__image"
+              src="./images/lead/shelf_l.jpg"
+              alt="Ж/д маршрут от Пскова до Улан-Удэ" />
           </picture>
           <small class="lead__caption">Ваша полка — верхняя</small>
         </section>
