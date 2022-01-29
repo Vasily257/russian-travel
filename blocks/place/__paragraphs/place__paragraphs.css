@@ -1,0 +1,10 @@
+.place__paragraphs {
+  display: grid;
+  gap: 25px;
+  grid-template-columns: 1fr;
+
+  margin: 0;
+  padding: 0;
+
+  list-style: none;
+}

@@ -1,0 +1,5 @@
+.place__item {
+  display: grid;
+  gap: 32px;
+  grid-template-columns: 1fr;
+}
