@@ -1,26 +1,6 @@
 .index-page {
-  box-sizing: border-box;
-  min-width: 320px;
-  /* max-width: 1024px; */
-  margin: 0 auto;
-  padding: 16px 0;
-
-  color: #ffffff;
-  background-color: #2a2c2f;
-
   font-family: Inter, Arial, sans-serif;
+  font-size: 16px;
   font-weight: normal;
-
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-text-size-adjust: 100%;
-  -ms-text-size-adjust: 100%;
-  -moz-text-size-adjust: 100%;
-  text-rendering: optimizeLegibility;
-}
-
-@media screen and (min-width: 768px) {
-  .index-page {
-    padding: 28px 0;
-  }
+  line-height: 1;
 }
