@@ -5,3 +5,16 @@
 
   line-height: 0.9;
 }
+
+@media screen and (min-width: 768px) {
+  .intro__list {
+    margin-top: 33px;
+    max-width: 720px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .intro__list {
+    max-width: 690px;
+  }
+}
