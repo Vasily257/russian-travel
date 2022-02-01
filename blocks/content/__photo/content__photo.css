@@ -1,6 +1,28 @@
 .content__photo {
+  align-self: stretch;
+
   box-sizing: border-box;
-  width: auto;
   margin: 0 16px;
   margin-top: 64px;
+}
+
+@media screen and (min-width: 768px) {
+  .content__photo {
+    margin: 0 24px;
+    margin-top: 88px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .content__photo {
+    margin: 0 48px;
+    margin-top: 92px;
+  }
+}
+
+@media screen and (min-width: 1280) {
+  .content__photo {
+    max-width: 1184px;
+    margin: 0 auto;
+  }
 }
