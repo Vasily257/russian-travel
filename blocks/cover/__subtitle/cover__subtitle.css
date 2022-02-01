@@ -8,5 +8,5 @@
   text-align: center;
 
   font-size: 14px;
-  line-height: 1.143;
+  line-height: calc(16 / 14);
 }

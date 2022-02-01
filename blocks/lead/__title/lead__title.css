@@ -15,6 +15,6 @@
     margin: 0 auto;
 
     font-size: 96px;
-    line-height: 1.0417;
+    line-height: calc(100 / 96);
   }
 }
