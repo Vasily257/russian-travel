@@ -1,0 +1,50 @@
+.cover__background {
+  grid-column: 1/-1;
+  grid-row: 1/-1;
+
+  width: 100%;
+  padding-top: calc((10 / 16) * 100%);
+
+  background-image: url(../../../images/cover/cover_xs.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.cover__background::before {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+
+  display: block;
+
+  content: '';
+
+  opacity: 0.3;
+  background-color: #2a2c2f;
+  transition: opacity 0.5s ease;
+}
+
+.cover__background:hover::before {
+  opacity: 0.8;
+}
+
+
+@media screen and (min-width: 768px) {
+  .cover__background {
+    background-image: url(../../../images/cover/cover_s.jpg);
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .cover__background {
+    background-image: url(../../../images/cover/cover_m.jpg);
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .covercover__background {
+    background-image: url(../../../images/cover/cover_l.jpg);
+  }
+}

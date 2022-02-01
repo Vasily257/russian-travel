@@ -1,13 +1,5 @@
 .cover {
-  position: relative;
-  z-index: 1;
-
-  display: block;
-
-  width: auto;
-  padding: 33px 0;
-
-  background-image: url(../../../images/cover/cover_xs.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
 }

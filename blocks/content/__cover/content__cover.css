@@ -1,3 +1,27 @@
 .content__cover {
+  position: relative;
+
+  width: 100%;
   margin-top: 66px;
+}
+
+@media screen and (min-width: 768px) {
+  .content__cover {
+    margin-top: 90px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .content__cover {
+    max-width: 1184px;
+    margin-top: 92px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .content__cover {
+    margin: 0 auto;
+    margin-top: 92px;
+
+  }
 }
