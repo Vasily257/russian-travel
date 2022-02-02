@@ -3,3 +3,24 @@
   grid-template-columns: 1fr;
   grid-template-rows: 1fr;
 }
+
+.cover::before {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+
+  display: block;
+
+  content: '';
+
+  opacity: 0.3;
+  background-color: #2a2c2f;
+  transition: opacity 0.5s ease;
+}
+
+.cover:hover::before {
+  opacity: 0.8;
+  cursor: pointer;
+}
