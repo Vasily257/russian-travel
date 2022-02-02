@@ -1,5 +1,6 @@
-.place__paragraphs {
+.place__text-list {
   display: grid;
+  align-content: start;
   gap: 25px;
   grid-template-columns: 1fr;
 

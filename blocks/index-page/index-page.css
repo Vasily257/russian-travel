@@ -1,4 +1,6 @@
 .index-page {
+  position: relative;
+
   box-sizing: border-box;
   min-width: 320px;
   height: 100%;
@@ -24,7 +26,6 @@
   left: 0;
 
   /* Включить или отключить макет */
-  display: block;
   /* display: none; */
 
   width: 100%;
