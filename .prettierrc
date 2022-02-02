@@ -4,5 +4,13 @@
   "useTabs": false,
   "tabWidth": 2,
   "semi": false,
-  "bracketSameLine": true
+  "bracketSameLine": true,
+  "overrides": [
+    {
+      "files": "**/*.css",
+      "options": {
+        "singleQuote:": true
+      }
+    }
+  ]
 }
