@@ -1,6 +1,13 @@
 .index-page {
-  font-family: Inter, Arial, sans-serif;
-  font-size: 16px;
-  font-weight: normal;
-  line-height: 1;
+  box-sizing: border-box;
+  min-width: 320px;
+  height: 100%;
+  padding: 16px 0;
+}
+
+
+@media screen and (min-width: 768px) {
+  .index-page {
+    padding: 28px 0;
+  }
 }
