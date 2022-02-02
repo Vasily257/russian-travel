@@ -26,7 +26,7 @@
   left: 0;
 
   /* Включить или отключить макет */
-  /* display: none; */
+  display: none;
 
   width: 100%;
   height: 100%;
