@@ -5,12 +5,5 @@
   "tabWidth": 2,
   "semi": false,
   "bracketSameLine": true,
-  "overrides": [
-    {
-      "files": "**/*.css",
-      "options": {
-        "singleQuote:": true
-      }
-    }
-  ]
+  "singleQuote:": true
 }
