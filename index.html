@@ -10,11 +10,15 @@
   <body class="page">
     <div class="index-page">
       <header class="index-page__header header">
-        <div class="header__container">
-          <img class="header__logo" src="./images/header/logo.svg" alt="Логотип" />
-          <a class="link header__lang-link header__lang-link_active" href="#" lang="en">Ru</a>
-          <a class="link header__lang-link" href="#" lang="en">En</a>
-        </div>
+        <img class="header__logo" src="./images/header/logo.svg" alt="Логотип" />
+        <ul class="header__list">
+          <li class="header__item">
+            <a class="link header__lang-link header__lang-link_active" href="#" lang="en">Ru</a>
+          </li>
+          <li class="header__item">
+            <a class="link header__lang-link" href="#" lang="en">En</a>
+          </li>
+        </ul>
       </header>
       <main class="index-page__content content">
         <section class="content__lead lead">
@@ -71,8 +75,7 @@
             </div>
           </dl>
         </section>
-        <section class="content__photo photo">
-          <h2 class="visually-hidden">Фотографии России</h2>
+        <section class="content__photo photo" aria-label="Фотографии России">
           <ul class="photo__list">
             <li class="photo__item">
               <img
@@ -124,8 +127,7 @@
             </li>
           </ul>
         </section>
-        <section class="content__places places">
-          <h2 class="visually-hidden">Интересные места</h2>
+        <section class="content__places places" aria-label="Интересные места">
           <ul class="place">
             <li class="place__item">
               <h3 class="place__title">Куршская коса</h3>
