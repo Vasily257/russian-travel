@@ -4,7 +4,6 @@
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 1fr;
-
 }
 
 .cover::before {
@@ -16,25 +15,25 @@
 
   content: '';
 
-  background-image: url(../../../images/cover/cover_xs.jpg);
+  background-image: url(../../images/cover/cover_xs.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
 
+@media screen and (min-width: 320px) {
+  .cover::before {
+    background-image: url(../../images/cover/cover_s.jpg);
+  }
+}
+
 @media screen and (min-width: 768px) {
   .cover::before {
-    background-image: url(../../../images/cover/cover_s.jpg);
+    background-image: url(../../images/cover/cover_m.jpg);
   }
 }
 
 @media screen and (min-width: 1024px) {
   .cover::before {
-    background-image: url(../../../images/cover/cover_m.jpg);
-  }
-}
-
-@media screen and (min-width: 1280px) {
-  .cover::before {
-    background-image: url(../../../images/cover/cover_l.jpg);
+    background-image: url(../../images/cover/cover_l.jpg);
   }
 }
