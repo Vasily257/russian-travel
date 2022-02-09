@@ -1,4 +1,4 @@
-.place__paragraph {
+.places__paragraph {
   width: auto;
   margin: 0 16px;
   padding: 0;
@@ -8,13 +8,13 @@
 }
 
 @media screen and (min-width: 768px) {
-  .place__paragraph {
+  .places__paragraph {
     margin: 0;
   }
 }
 
 @media screen and (min-width: 1024px) {
-  .place__paragraph {
+  .places__paragraph {
     font-size: 18px;
     line-height: calc(29 / 18);
   }

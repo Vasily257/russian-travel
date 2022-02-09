@@ -1,4 +1,4 @@
-.place__text-list {
+.places__text-list {
   display: grid;
   align-content: start;
   gap: 25px;

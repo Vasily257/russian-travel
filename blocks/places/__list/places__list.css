@@ -1,4 +1,4 @@
-.place {
+.places__list {
   display: grid;
   gap: 50px;
   grid-template-columns: 1fr;
@@ -10,13 +10,13 @@
 }
 
 @media screen and (min-width: 768px) {
-  .place {
+  .places__list {
     gap: 73px;
   }
 }
 
 @media screen and (min-width: 1024px) {
-  .place {
+  .places__list {
     gap: 80px;
   }
 }
