@@ -20,6 +20,6 @@
 
 @media screen and (min-width: 1280px) {
   .content__cover {
-    margin: 0 auto;
+    margin: 92px auto 0;
   }
 }
