@@ -1,27 +1,22 @@
-# Проект: Путешествие по России
+# Russian Travel  
+A training project for practicing adaptive and responsive layout skills.  
+  
+## Functionality  
+The project has no speacial functionality, only adaptability and responsiveness.  
+  
+## Technology stack  
+`HTML`, `CSS`, `JS`, `Git`  
+  
+## Links  
+A website link: https://vasily257.github.io/russian-travel/index.html
+  
+## Animation  
+The project uses simple animation like a smooth change of opacity or background color.  
+  
+## Usage  
+To clone a project, you need to open desired directory and use the command:  
+**HTTPS**: `git clone https://github.com/Vasily257/russian-travel`  
+**SSH**: `git clone git@github.com:Vasily257/russian-travel`  
 
-## Содержание
-
-- [Описание](#Описание)
-- [Планы по доработке](#Планы-по-доработке)
-- [Ссылка на проект](#Ссылка-на-проект)
-
-## Описание
-
-Учебный проект, который описывает красивые места в России.
-
-Функционально это одностраничный сайт на чистом HTML/CSS без JS.
-
-В проекте использована отзывчивая верстка, принцип построения — mobile-first.
-Основные стили сверстаны для разрешения 320px, точки перестроений: 768px, 1024px, 1280px.
-Для построения сеток в основном применяется grid-layout, в отдельных случаях flex.
-
-Шрифты подключены локально, причём сначала шрифты ищутся на компьютере пользователя, а только потом подгружаются.
-
-## Планы по доработке
-
-Выполнить все пункты ревьюера из раздела «Можно лучше».
-
-## Ссылка на проект
-
-https://vasily257.github.io/russian-travel/index.html
+## Status
+The project is closed, there are no plans for completion.
